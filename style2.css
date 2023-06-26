@@ -197,23 +197,6 @@ main .form-control label{
     font-size: 14px;
 }
 
-/* main>label:not([for="checkout-checkbox"]) {
-    display: block;
-    font-size: 10px;
-    font-weight: 500;
-    margin-bottom: 2px;
-}
-
-main>input:not([type="checkbox"]) {
-    width: 100%;
-    padding: 10px 10px 10px 40px;
-    border-radius: 10px;
-    outline: none;
-    border: .2px solid #4e515085;
-    font-size: 12px;
-    font-weight: 700;
-} */
-
 main::placeholder {
     font-size: 10px;
     font-weight: 500;
