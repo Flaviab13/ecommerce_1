@@ -231,6 +231,7 @@ main{
 
 .btn.btn-success p{
     cursor:pointer;
+    font-size: 14px;
     font-family: 'Architects Daughter', cursive;
     font-weight: bold;
     transition:.8s ease all ;
@@ -254,10 +255,9 @@ main{
 	height: 215px;
 
 }
-.caption p{
+.group.inner.list-group-item-text{
 	font-size: 14px;
 	height: 42px;
-    text-align: center;
 }
 /* .caption h4{
 	width: 400px;
@@ -307,5 +307,5 @@ footer .flex li{
 }
 
 footer a{
-    color: #A07B05;
+    color: #E1C03A;
 }
