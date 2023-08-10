@@ -221,8 +221,7 @@
   -moz-box-shadow: rgba(224, 171, 93, 0.842) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
   box-shadow: rgba(224, 171, 93, 0.842) 0 1px 0, inset rgba(255,255,255,0.7) 0 1px 0;
   text-shadow: #fac552 0 1px 0;
-  color: #333;
-  text-decoration: none;  
+  
 }
 
 .btn.btn-success:hover {
