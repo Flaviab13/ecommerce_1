@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda de alfajores </title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ccs/style3.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;0,700;1,300&display=swap" rel="stylesheet">
@@ -18,14 +18,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fontawesome.com/icons/cart-shopping?f=classic&s=duotone&sz=sm&pc=%23000000&sc=%23e99a5d&so=1">
+    <!-- <link rel="stylesheet" href="https://fontawesome.com/icons/cart-shopping?f=classic&s=duotone&sz=sm&pc=%23000000&sc=%23e99a5d&so=1"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
     
 
 </head>
 <body class="index">
     <header class="header-fixed">
         <div class="store-logo"> 
-            <a href="index.html" id="text"> <img src="images/icon_alf-removebg-preview.png" alt="" width="80px" height="80px"><h1 class="title">Tienda de alfajores</h1> </a>
+            <a href="index.html" id="text"> <img src="images/icon_alf-removebg-preview.png" alt="" width="50px" height="50px"><h1 class="title">Tienda de alfajores</h1> </a>
+
             <nav class="navbar">
                 <ul class="nav-items">
                   <li class="nav-item"><a href="index.html" class="nav-link">Tienda</a></li>
@@ -33,15 +36,40 @@
                   <li class="nav-item"><a href="cart.html" class="nav-link">Carrito</a></li>
                   <li class="nav-item"><a href="localized.html" class="nav-link">Sucursales </a></li>
                   <li class="nav-item"><a href="contact.html" class="nav-link">Contacto</a></li>
+                  <input class="menu" type="checkbox" id="menu"/>
+                  <label class="m-item" for="menu"><span class="s-item"></span></label>
+                  <li> <a href="#" class="icon" ><i class="fa fa-bars"></i>
+                  </a></li>
                 </ul>
               </nav>       
         
         </div>   
     </header>
 
-    <main>
 
+    <main>
+        <div class="pin-wrapper argentina">
+            <p>Argentina  </p>          
+            <div class="pin"><img width="96" height="96" src="images/icons8-shop-94-1.png" alt="">
+                <!-- <img src="images/pasador-de-ubicacion-1.png" width="50" height="50" alt=""> -->
+                <!--<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/> -->
+              </svg>
+            </div>
+            
+          </div>
+          
+          <div class="pin-wrapper uruguay">
+            <p>Uruguay</p>
+            <div class="pin"><img width="96" height="96" src="images/icons8-shop-94-1.png" alt="">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+              </svg> -->
+            </div>
+          </div>
     </main>
+
+
     <div class="max-w-2xl mx-auto">
 
         <footer class="p-5 bg-white rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 dark:bg-gray-800">
@@ -49,7 +77,7 @@
         </span>
             <ul class="flex flex-wrap items-center mt-3 sm:mt-0">
                 <li>
-                    <a href="#" class="mr-4 text-sm text-gray-600 hover:underline md:mr-6 dark:text-gray-400">Acerca de</a>
+                    <a href="#" class="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400">Acerca de</a>
                 </li>
                 <li>
                     <a href="#" class="mr-4 text-sm text-gray-500 hover:underline md:mr-6 dark:text-gray-400">Política de privacidad</a>
@@ -60,6 +88,7 @@
                 <li>
                     <a href="#" class="text-sm text-gray-500 hover:underline dark:text-gray-400">Contacto</a>
                 </li>
+
             </ul>
         </footer>
     

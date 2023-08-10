@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda de alfajores </title>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="ccs/style2.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;0,700;1,300&display=swap" rel="stylesheet">
@@ -18,7 +18,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fontawesome.com/icons/cart-shopping?f=classic&s=duotone&sz=sm&pc=%23000000&sc=%23e99a5d&so=1">
+    <!-- <link rel="stylesheet" href="https://fontawesome.com/icons/cart-shopping?f=classic&s=duotone&sz=sm&pc=%23000000&sc=%23e99a5d&so=1"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
 <body class="index">
     <header class="header-fixed">
@@ -31,6 +32,11 @@
                   <li class="nav-item"><a href="cart.html" class="nav-link">Carrito</a></li>
                   <li class="nav-item"><a href="localized.html" class="nav-link">Sucursales </a></li>
                   <li class="nav-item"><a href="contact.html" class="nav-link">Contacto</a></li>
+                  <input class="menu" type="checkbox" id="menu"/>
+                  <label class="m-item" for="menu"><span class="s-item"></span></label>
+                  <li> <a href="#" class="icon" ><i class="fa fa-bars"></i>
+                  </a></li>
+
                 </ul>
               </nav>       
         
@@ -62,7 +68,7 @@
               </div>
               <br>
               <h6>Dirección de envío</h6>
-              <div class="form-control">
+              <div class="form-control" id="form3">
                 <label for="checkout-name">Nombre completo</label>
                 <div>
                   <span class="fa fa-user-circle"></span>
@@ -110,7 +116,7 @@
                 <label for="checkout-checkbox">Guarde esta información para la próxima vez</label>
               </div>
               <div class="form-control-btn">
-                <button>Continuar</button>
+                <button>Enviar</button>
               </div>
             </form>
           </section>
